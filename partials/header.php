@@ -1,3 +1,6 @@
+<?php 
+include("partials/connect.php")
+?>
 <header>
 		<!-- Header desktop -->
 		<div class="container-menu-desktop">
