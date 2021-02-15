@@ -55,8 +55,14 @@ include("adminpartials/head.php");
               <div class="form-group">
                 <label for="category">Category</label>
                 <select id="category" name="category">
-                  <option value="1">Shoes</option>
-                  <option value="2">Pants</option>
+                  <?php 
+                  include("../partials/connect.php");
+                  $cat = "SELECT * FROM categories";
+                  $results = mysqli_query($connect, $cat);
+                  while($row = mysqli_fetch_assoc($results))
+                    echo "<option value=".$row['id'].">".$row['name']."</option>";
+                  ?>
+                  
                 </select>
               </div>
             </div>

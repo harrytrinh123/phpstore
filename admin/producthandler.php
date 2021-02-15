@@ -8,7 +8,7 @@ $category = $_POST["category"];
 $target = "../uploads/";
 $file_path = $target.basename($_FILES["file"]["name"]); //../uploads/pro_A61098_1.jpg
 $file_name = $_FILES["file"]["name"]; //pro_A61098_1.jpg
-$file_tmp = $_FILES["file"]["tmp_name"];
+$file_tmp = $_FILES["file"]["tmp_name"]; // C:\xampp\tmp\php590C.tmp
 $file_store = "../uploads/".$file_name;
 
 echo $file_tmp;
