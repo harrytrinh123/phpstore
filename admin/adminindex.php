@@ -30,7 +30,7 @@ include("adminpartials/head.php");
     <!-- Main content -->
     <section class="content">
       <!-- Small boxes (Stat box) -->
-      <h1>Hello</h1>
+      <h1>WELCOME TO ADMIN PANEL</h1>
       <!-- /.row (main row) -->
 
     </section>
