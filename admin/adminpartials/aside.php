@@ -36,6 +36,12 @@
             <i class="fa fa-th"></i> <span>Products</span>
           </a>
         </li>
+
+        <li>
+          <a href="adminpartials/logout.php">
+            <i class="fa fa-th"></i> <span>Logout</span>
+          </a>
+        </li>
       </ul>
     </section>
     <!-- /.sidebar -->
