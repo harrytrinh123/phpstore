@@ -7,11 +7,11 @@ if (isset($_POST['update'])) {
   $newdes = $_POST['description'];
   $newcat = $_POST['category'];
 
-  $target = "../uploads/";
+  $target = "uploads/";
   $file_path = $target . basename($_FILES["file"]["name"]); //../uploads/pro_A61098_1.jpg
   $file_name = $_FILES["file"]["name"]; //pro_A61098_1.jpg
   $file_tmp = $_FILES["file"]["tmp_name"]; // C:\xampp\tmp\php590C.tmp
-  $file_store = "../uploads/" . $file_name;
+  $file_store = "uploads/" . $file_name;
 
   move_uploaded_file($file_tmp, $file_store);
 

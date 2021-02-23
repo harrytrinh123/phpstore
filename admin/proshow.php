@@ -57,7 +57,7 @@ include("adminpartials/head.php");
           <h3>Category :
           <?php echo $cat['name']?>
           </h3><hr><br>
-          <img src="<?php echo $final['picture'] ?>" alt="No file" style="height: 300px; width: 300px">
+          <img src="../<?php echo $final['picture'] ?>" alt="No file" style="height: 300px; width: 300px">
 
         </div>
         <div class="col-sm-3"></div>
