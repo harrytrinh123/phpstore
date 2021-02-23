@@ -76,7 +76,7 @@ include("adminpartials/head.php");
             <!-- /.box-body -->
 
             <div class="box-footer">
-            <input type="hidden" value="<?php echo $final['id'] ?>" name="form_id">
+              <input type="hidden" value="<?php echo $final['id'] ?>" name="form_id">
               <button type="submit" class="btn btn-primary" name="update">Update</button>
             </div>
           </form>
