@@ -39,6 +39,10 @@ include("adminpartials/head.php");
           $sql = "SELECT * FROM products WHERE id = '$id'";
           $result = $connect->query($sql);
           $final = $result->fetch_assoc();
+
+          $catid = $final['category_id'];
+          $sqlcat = "SELECT * FROM categories WHERE id = '$catid'";
+          $cat = $connect->query($sqlcat)->fetch_assoc();
           ?>
 
           <h3>Name :
@@ -49,6 +53,9 @@ include("adminpartials/head.php");
           </h3><hr><br>
           <h3>Description :
           <?php echo $final['description']?>
+          </h3><hr><br>
+          <h3>Category :
+          <?php echo $cat['name']?>
           </h3><hr><br>
           <img src="<?php echo $final['picture'] ?>" alt="No file" style="height: 300px; width: 300px">
 
