@@ -1,17 +1,17 @@
 <section class="section-slide">
 		<div class="wrap-slick1">
 			<div class="slick1">
-				<div class="item-slick1" style="background-image: url(images/slide-01.jpg);">
+				<div class="item-slick1" style="background-image: url(images/slide1.jpg);">
 					<div class="container h-full">
 						<div class="flex-col-l-m h-full p-t-100 p-b-30 respon5">
 							<div class="layer-slick1 animated visible-false" data-appear="fadeInDown" data-delay="0">
-								<span class="ltext-101 cl2 respon2">
-									Women Collection 2018
+								<span class="ltext-101 cl2 respon2" style="color: white;">
+									Women Collection 2020
 								</span>
 							</div>
 								
 							<div class="layer-slick1 animated visible-false" data-appear="fadeInUp" data-delay="800">
-								<h2 class="ltext-201 cl2 p-t-19 p-b-43 respon1">
+								<h2 class="ltext-201 cl2 p-t-19 p-b-43 respon1" style="color: white;">
 									NEW SEASON
 								</h2>
 							</div>
@@ -25,18 +25,18 @@
 					</div>
 				</div>
 
-				<div class="item-slick1" style="background-image: url(images/slide-02.jpg);">
+				<div class="item-slick1" style="background-image: url(images/slide2.jpg);">
 					<div class="container h-full">
 						<div class="flex-col-l-m h-full p-t-100 p-b-30 respon5">
 							<div class="layer-slick1 animated visible-false" data-appear="rollIn" data-delay="0">
-								<span class="ltext-101 cl2 respon2">
+								<span class="ltext-101 cl2 respon2" style="color: white;">
 									Men New-Season
 								</span>
 							</div>
 								
 							<div class="layer-slick1 animated visible-false" data-appear="lightSpeedIn" data-delay="800">
-								<h2 class="ltext-201 cl2 p-t-19 p-b-43 respon1">
-									Jackets & Coats
+								<h2 class="ltext-201 cl2 p-t-19 p-b-43 respon1" style="color: white;">
+									Shoes
 								</h2>
 							</div>
 								
@@ -49,17 +49,17 @@
 					</div>
 				</div>
 
-				<div class="item-slick1" style="background-image: url(images/slide-03.jpg);">
+				<div class="item-slick1" style="background-image: url(images/slide4.jpg);">
 					<div class="container h-full">
 						<div class="flex-col-l-m h-full p-t-100 p-b-30 respon5">
 							<div class="layer-slick1 animated visible-false" data-appear="rotateInDownLeft" data-delay="0">
-								<span class="ltext-101 cl2 respon2">
-									Men Collection 2018
+								<span class="ltext-101 cl2 respon2" style="color: white;">
+									Men Collection 2020
 								</span>
 							</div>
 								
 							<div class="layer-slick1 animated visible-false" data-appear="rotateInUpRight" data-delay="800">
-								<h2 class="ltext-201 cl2 p-t-19 p-b-43 respon1">
+								<h2 class="ltext-201 cl2 p-t-19 p-b-43 respon1" style="color: white;">
 									New arrivals
 								</h2>
 							</div>

@@ -13,7 +13,7 @@ if (isset($_POST['update'])) {
   $file_tmp = $_FILES["file"]["tmp_name"]; // C:\xampp\tmp\php590C.tmp
   $file_store = "uploads/" . $file_name;
 
-  move_uploaded_file($file_tmp, $file_store);
+  move_uploaded_file($file_tmp, "../".$file_store);
 
   $sql = "UPDATE products 
   SET name ='$newname', price ='$newprice', description = '$newdes', category_id = '$newcat', picture = '$file_path'

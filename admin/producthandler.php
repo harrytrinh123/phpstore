@@ -13,7 +13,7 @@ $file_store = "uploads/".$file_name;
 
 echo $file_tmp;
 
-move_uploaded_file($file_tmp, $file_store);
+move_uploaded_file($file_tmp, "../".$file_store);
 
 $sql = "INSERT INTO products(name, price, picture, description, category_id) VALUES('$name', '$price', '$file_path', '$description', '$category')";
 $connect->query($sql);
